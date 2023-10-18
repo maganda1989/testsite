@@ -7,4 +7,9 @@
 tasks:
   - init: npm install
 
-
+  - name: http-server
+    before: |
+      cd $PROJECT_ROOT
+      npm install --global http-server
+    command: 
+      http-server
