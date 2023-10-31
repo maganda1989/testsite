@@ -9,41 +9,52 @@
 		<title>Orhan Tanimak Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://orhanwebstorage.blob.core.windows.net/$web/assets/css/main.css" />
+				<!-- Scripts -->
+			<script defer src="https://orhanwebstorage.blob.core.windows.net/$web/assets/js/jquery.min.js"></script>
+			<script defer src="https://orhanwebstorage.blob.core.windows.net/$web/assets/js/browser.min.js"></script>
+			<script defer src="https://orhanwebstorage.blob.core.windows.net/$web/assets/js/breakpoints.min.js"></script>
+			<script defer src="https://orhanwebstorage.blob.core.windows.net/$web/assets/js/util.js"></script>
+			<script defer src="https://orhanwebstorage.blob.core.windows.net/$web/assets/js/main.js"></script>
+			<script defer src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
 		  <style>
-        .slideshow-container {
-            max-width: 600px;
-            position: relative;
-            margin: auto;
-        }
+			.slideshow-container {
+				position: relative;
+				max-width: 100%;
+				overflow: hidden;
+				margin-top: 1.6em;
+				margin-bottom: 0.9em;
+			}
 
-        .mySlides {
-            display: none;
-        }
+			.mySlides {
+				display: none;
+			}
 
-        .mySlides img {
-            width: 100%;
-            height: auto;
-        }
+			img {
+				width: 100%;
+				height: auto;
+			}
 
-        .prev, .next {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 18px;
-            cursor: pointer;
-			color: black;
-        }
+			.prev, .next {
+				position: absolute;
+				top: 50%;
+				font-size: 18px;
+				cursor: pointer;
+				color: black;
+				padding: 16px;
+				z-index: 1;
+			}
 
-        .prev {
-            left: 0;
-        }
+			.prev {
+				left: 0;
+				transform: translateY(-50%);
+			}
 
-        .next {
-            right: 0;
-        }
-    </style>
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+			.next {
+				right: 0;
+				transform: translateY(-50%);
+			</style>
+		<noscript><link rel="stylesheet" href="https://orhanwebstorage.blob.core.windows.net/$web/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -53,7 +64,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<i class="fa-light fa-gem"></i>
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -78,7 +89,7 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">About me</h2>
-								<span class="image main"><img src="images/orhan.jpeg" alt="" /></span>
+								<span class="image main"><img src="https://orhanwebstorage.blob.core.windows.net/$web/images/orhan.jpeg" alt="" /></span>
 								<p>My days revolve around studies and cherished moments with my family. </p>
 								<p>As the seasons change, so do my interests. During summers, I find solace on the west coast of Turkey, indulging in the simple pleasures of savoring watermelon and embracing the sun-soaked beaches.</p>
 								<p>When winter arrives, my enthusiasm shifts to the snowy slopes, where I thoroughly enjoy skiing. And when I have some free time, you'll often find me diving into the world of competitive computer gaming.</p>
@@ -89,53 +100,72 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Expertise</h2>
-								<i> Below are some of my projects and badges i've earned since i started my new career in IT </i>
+								<i> Below are some of my projects and badges i've earned since i started my new career in IT.</i>
+								
 								<div class="slideshow-container">
+
 								<div class="mySlides">
-								<img src="images/terraformproj.jpg" alt="Slide 1">
+								<img src="https://orhanwebstorage.blob.core.windows.net/$web/images/badges.JPG" alt="Slide 1">
 								</div>
 
 								<div class="mySlides">
-								<img src="images/azureproj.jpg" alt="Slide 2">
+								<img src="https://orhanwebstorage.blob.core.windows.net/$web/images/azureproj.JPG" alt="Slide 2">
 								</div>
 
 								<div class="mySlides">
-								<img src="images/badges.jpg" alt="Slide 3">
+								<img src="https://orhanwebstorage.blob.core.windows.net/$web/images/terraformproj.JPG" alt="Slide 3">
 								</div>
+
 								<div class="mySlides">
-								<img src="images/kanban.jpg" alt="Slide 4">
+								<img src="https://orhanwebstorage.blob.core.windows.net/$web/images/kanban.JPG" alt="Slide 4">
 								</div>
+
 								<div class="mySlides">
-								<img src="images/fishbone.jpg" alt="Slide 5">
+								<img src="https://orhanwebstorage.blob.core.windows.net/$web/images/fishbone.JPG" alt="Slide 5">
 								</div>
+
 								<div class="mySlides">
-								<img src="images/documentation.jpg" alt="Slide 6">
+								<img src="https://orhanwebstorage.blob.core.windows.net/$web/images/documentation.JPG" alt="Slide 6">
 								</div>
+
 								<div class="mySlides">
-								<img src="images/agile.jpg" alt="Slide 7">
+								<img src="https://orhanwebstorage.blob.core.windows.net/$web/images/agile.JPG" alt="Slide 7">
 								</div>
+
 								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 								<a class="next" onclick="plusSlides(1)">&#10095;</a>
 								</div>
 									<!-- Text in Expertise -->  
-									
+									<p> To verify my badges you can visit my <a href="https://www.credly.com/users/orhan-tanimak"">Credly profile<a/>. </p>
+
 									<p>I've gained a wide range of experience, and my aim is to bring together these diverse experiences as I work towards becoming a solutions architect.</p>
 
-									<p>In the realm of cloud computing, I've spent over a year working hands-on with both AWS and Azure, becoming proficient in the fundamental operations of these platforms.</p>
+									<p>In the area of cloud computing, I've spent over a year working hands-on with both AWS and Azure, becoming proficient in the fundamental operations of these platforms.</p>
 
-									<p>In the field of logistics, my experience spans over 10 years, during which I've implemented and successfully sold solutions covering global logistics. I proudly consider myself highly skilled in this complex domain.</p>
+									<p>In the field of logistics, my experience spans over 10 years, during which I've implemented and successfully sold solutions covering global logistics. I proudly consider myself highly skilled and my customers would define me as a black-belt within this area</p>
 
 									<p>In sales, my track record speaks for itself, with a turnover exceeding +10 million SEK. Within my company, I stood out as one of the top-performing salesmen, showcasing a strong ability to achieve results.</p>
 
 									<p>In project management, I'm well-versed in agile methodologies, using tools like Kanban and resource planning to coordinate seamless IT development. Over 5 years in a small firm, I took on the responsibility of overseeing all aspects of IT development, contributing to the organization's success.</p>
-									<script src="assets/js/slide.js"></script>
+									<script src="https://orhanwebstorage.blob.core.windows.net/$web/assets/js/slide.js"></script>
 									</article>
 
 									
 
 						<!-- About -->
 							<article id="about">
-								<h2 class="major">Education</h2>
+								<h2 class="major">Education and experience</h2>
+
+								<p>Check out the details of my current education at Lernia below in case my CV doesn't grab your attention.</p>
+								<div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
+								padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+								border-radius: 8px; will-change: transform;">
+								<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+								src="https://www.canva.com/design/DAFPSspHFVg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+								</iframe>
+								</div>
+								<a href="https://www.canva.com/design/DAFPSspHFVg/view?utm_content=DAFPSspHFVg&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener"><p>CV in English updated 2023-10-18</a> by Orhan Tanimak</p>
+
 								
 								<p>My ongoing studies encompass a comprehensive understanding of IT infrastructure and cloud services, with a specific focus on Azure, given Sweden's predominant use of Microsoft technologies.</p>							
 								<h4>Advanced IT Infrastructure</h4>
@@ -148,26 +178,17 @@
 								<p>This course focused on applying security in a cloud-based environment, covering security for cloud infrastructure, network access, platform-specific user access control, integrated cloud authentication systems, and more. Topics included antivirus protection, encryption, access control, web filtering, access management, firewalls, IPS protection, and an overview of ISO 27001/ISO 27002 and ISO 27018.</p>
 								<h4>Server Virtualization: VMWare, Hyper-V, Virtual Box, Linux Operating System</h4>
 								<p>In this course, I learned about VMWare and Hyper-V for designing, administering, and developing a cloud environment. Advanced knowledge about infrastructure and platform-specific features for VMWare, Linux OS, and Microsoft Hyper-V was covered. Topics included virtual networks, servers, migration functions, virtual resource management, virtual storage, scalability, security, troubleshooting, Cisco routing products, switches, and more. The course also covered Cisco switch and router configuration with a CLI interface.</p>
-								<p>Check out my CV below for more details in my experience (Press arrows in bottom right frame for fullscreen!)</p>
-								<div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
-								padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-								border-radius: 8px; will-change: transform;">
-								<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
-								src="https://www.canva.com/design/DAFPSspHFVg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-								</iframe>
-								</div>
-								<a href="https://www.canva.com/design/DAFPSspHFVg/view?utm_content=DAFPSspHFVg&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">CV in English updated 2023-10-18</a> by Orhan Tanimak
-
+								
 								
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 							<h2 class="major">Contact</h2>
-							<form method="post" action="assets/php/send_email.php">
+							<form method="post" action="$web/assets/php/send_email.php">
 							<div class="fields">
 							<div class="field half">
-							<p>Feel free to reach out to me on LinkedIn by clicking the icon below. I typically respond within 24 hours.</p>
+							<p>Feel free to reach out to me on LinkedIn by clicking the icon below or send me an email. I typically respond within 24 hours.</p>
 							<p>You're welcome to explore my GitHub repository, though I should mention that I'm still a novice in that area for now.</p>
 							</div>
 							</div>
@@ -178,12 +199,10 @@
 							<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/orhan-tanimak-78620429/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="https://github.com/maganda1989" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="mailto:orhan@tanimak.se" target="_blank" class="fa-regular fa-envelope"><span class="label"></span></a></li>
 							</ul>
 							</article>
-
-						<!-- Elements -->
-							
-
+						
 
 					</div>
 
@@ -193,21 +212,12 @@
 						<p></p>
 						<p></p>
 						<p></p>
-						<h4>Credit for webdesign: HTML5 UP @ajlkn </h4>
+						<p class="copyright">© Orhan Tanimak, 2023. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
 
 		<!-- BG -->
 			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			
-
 	</body>
 </html>
