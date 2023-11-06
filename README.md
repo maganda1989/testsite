@@ -1,3 +1,22 @@
+# Orhan testsite for portfolio
+
+## TOC
+- [Solution](#Solution)
+- [Credits](#Credits)
+
+### Purpose
+I want to build a website that is hosted in Azure and the versioning control is through github using my skills obtained from Terraform bootcamp which had alot of materials on Git and how to use it to control versioning. 
+
+The reason i'm building this website is because i'm currently struggling with finding an internship in Sweden Stockholm and i want to seperate myself from your average applicant.
+
+
+### Solution
+With a help from a friend i've obtained a subscription in Azure which allows me to deploy 
+
+
+
+##### Credits
+
 Dimension by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
