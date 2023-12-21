@@ -3,6 +3,26 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+// Counter script
+function fetchData() {
+    fetch('https://orhansitecounter.azurewebsites.net/api/HttpTrigger1')
+        .then(response => {
+            console.log(response); // Log the entire response
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.text(); // or response.json() if the response is JSON
+        })
+        .then(data => {
+            console.log(data); // Log the response (visit count) to the console or use it as needed
+        })
+        .catch(error => console.error('Error:', error));
+}
+
+// Call the function when the page is loaded
+document.addEventListener('DOMContentLoaded', function () {
+    fetchData();
+});
 
 (function($) {
 
